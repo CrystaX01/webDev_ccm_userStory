@@ -1,0 +1,66 @@
+{
+  "main": {
+    "tag": "div",
+    "class": "userstorys"
+  },
+
+  "userstory": {
+    "tag": "div",
+    "class": "userstory",
+    "inner": [
+      {
+        "tag": "div",
+        "class": "id",
+        "inner": "%id%"
+      },
+      {
+        "tag": "div",
+        "class": "text",
+        "inner": "%text%"
+      },
+	  {
+	    "tag": "div",
+        "class": "points",
+        "inner": "%points%"
+	  },
+	  { 
+		"tag": "button",
+		"id": "%bid%",
+		"inner": "Löschen",
+		"onclick": "%onclick%"
+	  }
+    ]
+  },
+
+  "input": {
+    "tag": "div",
+    "class": "new_userstory",
+    "inner": [
+      {
+        "tag": "div",
+        "class": "text",
+        "inner": {
+          "tag": "form",
+          "inner": [
+            {
+              "tag": "input",
+			  "class": "textinput",
+              "placeholder": "Enter message here..."
+            },
+			{
+              "tag": "input",
+			  "class": "spoints",
+              "placeholder": "Enter Story points here..."
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "value": "Eintragen"
+            }
+          ],
+          "onsubmit": "%onsubmit%"
+        }
+      }
+    ]
+  }
+}

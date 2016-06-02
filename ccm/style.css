@@ -1,0 +1,12 @@
+/* style.css */
+.ccm-userstory > .userstorys {
+	
+}
+.ccm-userstory > .userstorys > .userstory > .id:before {
+	content: 'ID: ';
+}
+.ccm-userstory > .userstorys > .userstory > .points:after {
+	content: ' SP';
+}
+.ccm-userstory> .userstorys > .userstory > .points{
+}
