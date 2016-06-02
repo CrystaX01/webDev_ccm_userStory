@@ -3,8 +3,8 @@ ccm.component( {
 	config: {                    // Standardkonfiguration für ccm-Instanzen
 		html:  [ ccm.store, { local: 'templates.json' } ],  // Einbindung der HTML-Templates
 		key: 'myuserstory',  // Standardwert für den Schlüssel des zu visualisierenden Datensatzes
-		store: [ ccm.store, { url: 'ws://ccm2.inf.h-brs.de/index.js', store: 'userstorys' } ],       // Abhängigkeit zum ccm-Datenspeicher
-		style: [ ccm.load, 'style2.css' ]  // Einbindung einer CSS-Datei
+		store: [ ccm.store, 'userstory.json' ],       // Abhängigkeit zum ccm-Datenspeicher
+		style: [ ccm.load, 'style.css' ]  // Einbindung einer CSS-Datei
 	},
 	Instance: function () {
 		var self = this;  // Hilfsvariable für einheitlichen Zugriff auf die ccm-Instanz

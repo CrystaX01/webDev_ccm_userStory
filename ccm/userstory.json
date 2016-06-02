@@ -1,0 +1,15 @@
+{
+  "key": "myuserstory",
+  "userstorys": [
+    {
+	  "id": "1",
+      "text": "Hello, World!",
+      "points": "3"
+    },
+    {
+      "id": "2",
+      "text": "Another user Story",
+      "points": "7"
+    }
+  ]
+}

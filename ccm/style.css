@@ -1,0 +1,22 @@
+/* style.css */
+.ccm-userstory > .userstorys {
+	background-color: #0085B2;
+	color: #fff;
+	min-width: 500px;
+	max-width: 500px;
+	min-height: 100px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.ccm-userstory > .userstorys > .userstory {
+	background-color: #0085B2;
+	color: #fff;
+}
+.ccm-userstory > .userstorys > .userstory > .id:before {
+	content: 'ID: ';
+}
+.ccm-userstory > .userstorys > .userstory > .points:after {
+	content: ' SP';
+}
+.ccm-userstory> .userstorys > .userstory > .points{
+}

@@ -28,6 +28,9 @@
 		"id": "%bid%",
 		"inner": "Löschen",
 		"onclick": "%onclick%"
+	  },
+	  {
+		"tag": "hr"
 	  }
     ]
   },
