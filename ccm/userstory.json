@@ -1,15 +1,17 @@
 {
-  "key": "myuserstory",
-  "userstorys": [
-    {
-	  "id": "1",
-      "text": "Hello, World!",
-      "points": "3"
-    },
-    {
-      "id": "2",
-      "text": "Another user Story",
-      "points": "7"
-    }
-  ]
+	"myuserstory" :	{
+	  "key": "myuserstory",
+	  "userstorys": [
+		{
+		  "id": "1",
+		  "text": "Beispiel Story",
+		  "points": "3"
+		},
+		{
+		  "id": "2",
+		  "text": "Weitere Story",
+		  "points": "7"
+		}
+	  ]
+	}
 }

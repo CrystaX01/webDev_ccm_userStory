@@ -11,7 +11,59 @@
       {
         "tag": "div",
         "class": "id",
-        "inner": "%id%"
+        "inner": [
+		  {
+			"tag": "table",
+			"inner": [
+			  {
+				"tag": "tr",
+				"inner": [
+				  {
+					"tag": "td",
+					"width": "220",
+					"inner": "%id%"
+				  },
+				  {
+				    "tag": "td",
+					"width": "25",
+					"inner": [
+					  {
+						"tag": "img",
+						"class": "%bid%",
+						"src": "Raise.png",
+						"onclick": "%up%"
+					  }
+					]
+				  },
+				  {
+				    "tag": "td",
+					"width": "70",
+					"inner": [
+					  {
+						"tag": "img",
+						"class": "%bid%",
+						"src": "Fall.png",
+						"onclick": "%down%"
+					  }
+					]
+				  },
+				  {
+				    "tag": "td",
+					"width": "16",
+					"inner": [
+					  {
+						"tag": "img",
+						"class": "%bid%",
+						"src": "Erase.png",
+						"onclick": "%onclick%"
+					  }
+					]
+				  }
+				]
+			  }
+			]
+		  }
+		]
       },
       {
         "tag": "div",
@@ -23,14 +75,235 @@
         "class": "points",
         "inner": "%points%"
 	  },
-	  { 
-		"tag": "button",
-		"id": "%bid%",
-		"inner": "Löschen",
-		"onclick": "%onclick%"
+	  {
+		"tag": "br"
 	  },
 	  {
 		"tag": "hr"
+	  },
+	  {
+		"tag": "br"
+	  }
+    ]
+  },
+  
+  "userstory2": {
+    "tag": "div",
+    "class": "userstory",
+    "inner": [
+      {
+        "tag": "div",
+        "class": "id",
+        "inner": [
+		  {
+			"tag": "table",
+			"inner": [
+			  {
+				"tag": "tr",
+				"inner": [
+				  {
+					"tag": "td",
+					"width": "220",
+					"inner": "%id%"
+				  },
+				  {
+				    "tag": "td",
+					"width": "25",
+					"inner": ""
+				  },
+				  {
+				    "tag": "td",
+					"width": "70",
+					"inner": [
+					  {
+						"tag": "img",
+						"class": "%bid%",
+						"src": "Fall.png",
+						"onclick": "%down%"
+					  }
+					]
+				  },
+				  {
+				    "tag": "td",
+					"width": "16",
+					"inner": [
+					  {
+						"tag": "img",
+						"class": "%bid%",
+						"src": "Erase.png",
+						"onclick": "%onclick%"
+					  }
+					]
+				  }
+				]
+			  }
+			]
+		  }
+		]
+      },
+      {
+        "tag": "div",
+        "class": "text",
+        "inner": "%text%"
+      },
+	  {
+	    "tag": "div",
+        "class": "points",
+        "inner": "%points%"
+	  },
+	  {
+		"tag": "br"
+	  },
+	  {
+		"tag": "hr"
+	  },
+	  {
+		"tag": "br"
+	  }
+    ]
+  },
+  
+  "userstory3": {
+    "tag": "div",
+    "class": "userstory",
+    "inner": [
+      {
+        "tag": "div",
+        "class": "id",
+        "inner": [
+		  {
+			"tag": "table",
+			"inner": [
+			  {
+				"tag": "tr",
+				"inner": [
+				  {
+					"tag": "td",
+					"width": "220",
+					"inner": "%id%"
+				  },
+				  {
+				    "tag": "td",
+					"width": "25",
+					"inner": [
+					  {
+						"tag": "img",
+						"class": "%bid%",
+						"src": "Raise.png",
+						"onclick": "%up%"
+					  }
+					]
+				  },
+				  {
+				    "tag": "td",
+					"width": "70",
+					"inner": ""
+				  },
+				  {
+				    "tag": "td",
+					"width": "16",
+					"inner": [
+					  {
+						"tag": "img",
+						"class": "%bid%",
+						"src": "Erase.png",
+						"onclick": "%onclick%"
+					  }
+					]
+				  }
+				]
+			  }
+			]
+		  }
+		]
+      },
+      {
+        "tag": "div",
+        "class": "text",
+        "inner": "%text%"
+      },
+	  {
+	    "tag": "div",
+        "class": "points",
+        "inner": "%points%"
+	  },
+	  {
+		"tag": "br"
+	  },
+	  {
+		"tag": "hr"
+	  },
+	  {
+		"tag": "br"
+	  }
+    ]
+  },
+  
+  "userstory4": {
+    "tag": "div",
+    "class": "userstory",
+    "inner": [
+      {
+        "tag": "div",
+        "class": "id",
+        "inner": [
+		  {
+			"tag": "table",
+			"inner": [
+			  {
+				"tag": "tr",
+				"inner": [
+				  {
+					"tag": "td",
+					"width": "220",
+					"inner": "%id%"
+				  },
+				  {
+				    "tag": "td",
+					"width": "25",
+					"inner": ""
+				  },
+				  {
+				    "tag": "td",
+					"width": "70",
+					"inner": ""
+				  },
+				  {
+				    "tag": "td",
+					"width": "16",
+					"inner": [
+					  {
+						"tag": "img",
+						"class": "%bid%",
+						"src": "Erase.png",
+						"onclick": "%onclick%"
+					  }
+					]
+				  }
+				]
+			  }
+			]
+		  }
+		]
+      },
+      {
+        "tag": "div",
+        "class": "text",
+        "inner": "%text%"
+      },
+	  {
+	    "tag": "div",
+        "class": "points",
+        "inner": "%points%"
+	  },
+	  {
+		"tag": "br"
+	  },
+	  {
+		"tag": "hr"
+	  },
+	  {
+		"tag": "br"
 	  }
     ]
   },
@@ -46,18 +319,27 @@
           "tag": "form",
           "inner": [
             {
-              "tag": "input",
+			  "tag": "textarea",
+              "cols":"20",
+              "rows":"4",
 			  "class": "textinput",
-              "placeholder": "Enter message here..."
+			  "style": "resize: vertical;",
+              "placeholder": "Hier Story eingeben..."
             },
 			{
               "tag": "input",
+			  "type": "number",
 			  "class": "spoints",
-              "placeholder": "Enter Story points here..."
+			  "min": "1",
+              "placeholder": "Story Points eingeben..."
             },
+			{
+			  "tag": "br"
+			},
             {
               "tag": "input",
               "type": "submit",
+			  "class": "button_sub",
               "value": "Eintragen"
             }
           ],
