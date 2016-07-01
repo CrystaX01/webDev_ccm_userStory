@@ -30,7 +30,7 @@ ccm.callback["templates.json"]({
 					  {
 						"tag": "img",
 						"class": "%bid%",
-						"src": "Raise.png",
+						"src": "http://crystax01.github.io/webDev_ccm_userStory/Raise.png",
 						"onclick": "%up%"
 					  }
 					]
@@ -42,7 +42,7 @@ ccm.callback["templates.json"]({
 					  {
 						"tag": "img",
 						"class": "%bid%",
-						"src": "Fall.png",
+						"src": "http://crystax01.github.io/webDev_ccm_userStory/Fall.png",
 						"onclick": "%down%"
 					  }
 					]
@@ -54,7 +54,7 @@ ccm.callback["templates.json"]({
 					  {
 						"tag": "img",
 						"class": "%bid%",
-						"src": "Erase.png",
+						"src": "http://crystax01.github.io/webDev_ccm_userStory/Erase.png",
 						"onclick": "%onclick%"
 					  }
 					]
@@ -118,7 +118,7 @@ ccm.callback["templates.json"]({
 					  {
 						"tag": "img",
 						"class": "%bid%",
-						"src": "Fall.png",
+						"src": "http://crystax01.github.io/webDev_ccm_userStory/Fall.png",
 						"onclick": "%down%"
 					  }
 					]
@@ -130,7 +130,7 @@ ccm.callback["templates.json"]({
 					  {
 						"tag": "img",
 						"class": "%bid%",
-						"src": "Erase.png",
+						"src": "http://crystax01.github.io/webDev_ccm_userStory/Erase.png",
 						"onclick": "%onclick%"
 					  }
 					]
@@ -189,7 +189,7 @@ ccm.callback["templates.json"]({
 					  {
 						"tag": "img",
 						"class": "%bid%",
-						"src": "Raise.png",
+						"src": "http://crystax01.github.io/webDev_ccm_userStory/Raise.png",
 						"onclick": "%up%"
 					  }
 					]
@@ -206,7 +206,7 @@ ccm.callback["templates.json"]({
 					  {
 						"tag": "img",
 						"class": "%bid%",
-						"src": "Erase.png",
+						"src": "http://crystax01.github.io/webDev_ccm_userStory/Erase.png",
 						"onclick": "%onclick%"
 					  }
 					]
@@ -275,7 +275,7 @@ ccm.callback["templates.json"]({
 					  {
 						"tag": "img",
 						"class": "%bid%",
-						"src": "Erase.png",
+						"src": "http://crystax01.github.io/webDev_ccm_userStory/Erase.png",
 						"onclick": "%onclick%"
 					  }
 					]
