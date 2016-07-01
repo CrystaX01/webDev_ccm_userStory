@@ -1,4 +1,4 @@
-{
+ccm.callback["userstory.json"]({
 	"myuserstory" :	{
 	  "key": "myuserstory",
 	  "userstorys": [
@@ -14,4 +14,4 @@
 		}
 	  ]
 	}
-}
+});
