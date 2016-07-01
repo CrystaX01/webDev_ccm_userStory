@@ -1,0 +1,112 @@
+/* style.css */
+.ccm-userstory > .userstorys {
+	border-radius: 25px;
+    border: 2px solid #FFA64D;
+    padding: 20px; 
+	color: #000;
+	min-width: 346px;
+	max-width: 346px;
+}
+.ccm-userstory > .userstorys > .userstory > .id > table {
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 16px;
+}
+.ccm-userstory > .userstorys > .userstory > .id table tr td:first-child + td img:hover {
+	cursor: pointer;
+}
+.ccm-userstory > .userstorys > .userstory > .id table tr td:first-child + td + td img:hover {
+	cursor: pointer;
+}
+.ccm-userstory > .userstorys > .userstory > .id table tr td:first-child + td + td + td img:hover {
+	cursor: pointer;
+}
+.ccm-userstory > .userstorys > .userstory > .text {
+	font-style: italic;
+	font-family: Verdana;
+	font-size: 14px;
+}
+.ccm-userstory > .userstorys > .userstory > .points {
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 14px;
+	color: red;
+}
+.ccm-userstory > .userstorys > .userstory {
+	color: #000;
+}
+.ccm-userstory > .userstorys > .userstory > hr {
+	background-color: #FFA64D;
+	border: 0; 
+	height: 2px; 
+	background-image: -webkit-linear-gradient(left, #f0f0f0, #FFA64D, #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, #FFA64D, #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, #FFA64D, #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0, #FFA64D, #f0f0f0);
+}
+.ccm-userstory > .userstorys > .userstory > .id:before {
+	content: '';
+}
+.ccm-userstory > .userstorys > .userstory > .points:after {
+	content: ' SP';
+}
+.ccm-userstory > .userstorys > .userstory > .points{
+	/* empty  */
+}
+.ccm-userstory > .userstorys > .new_userstory > .text > form > input.button_sub {
+	background-color: white;
+	border-radius: 8px;
+    border: 2px solid #FFA64D;
+    color: black;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top:8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.ccm-userstory > .userstorys > .new_userstory > .text > form > textarea {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	-moz-box-shadow: 1px 1px 4px #EBEBEB;
+	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 7px;
+	outline: none;
+}
+.ccm-userstory > .userstorys > .new_userstory > .text > form > input.spoints{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	-moz-box-shadow: 1px 1px 4px #EBEBEB;
+	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 7px;
+	outline: none;
+	text-align:right;
+	width: 160px;
+	margin-left: 10px;
+	position: absolute;
+}
+.ccm-userstory > .userstorys > .new_userstory > .text > form > input:focus{
+	border: 1px solid #FFA64D;
+}
+.ccm-userstory > .userstorys > .new_userstory > .text > form > textarea:focus{
+	border: 1px solid #FFA64D;
+}
+.ccm-userstory > .userstorys > .new_userstory > .text > form > input.button_sub:hover {
+    background-color: #FFA64D;
+    color: white;
+}
